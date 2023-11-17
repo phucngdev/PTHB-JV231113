@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 10px;
+  background-color: rgb(53, 53, 247);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h2 {
+  color: #fff;
+  font-family: sans-serif;
+}
+button {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.task input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.task input:focus {
+  outline: none;
+}
+.task button {
+  border: none;
+  background-color: rgb(53, 53, 247);
+  color: #fff;
+  padding: 6px 10px;
+}
+footer h3 {
+  padding: 10px;
+  background-color: #ededed;
+}
+footer p {
+  text-align: center;
+  padding: 10px;
+  background-color: #ccc;
+}
